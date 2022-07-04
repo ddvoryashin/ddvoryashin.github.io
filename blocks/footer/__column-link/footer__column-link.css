@@ -1,11 +1,15 @@
 .footer__column-link {
   margin: 0 0 10px;
-  color: white;
-  text-decoration: none;
+  padding: 0;
   display: flex;
 }
 
-.footer__column-link:nth-of-type(3n) {
+.footer__column-link > a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.footer__column-link:last-of-type(3n) {
   margin: 0;
 }
 
