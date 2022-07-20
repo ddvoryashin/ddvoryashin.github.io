@@ -1,0 +1,10 @@
+.place {
+  margin-top: 80px;
+  display: grid;
+  grid-template: 152px 460px / 460px 484px;
+  gap: 48px 40px;
+}
+
+.place:first-of-type {
+  margin-top: 0;
+}
