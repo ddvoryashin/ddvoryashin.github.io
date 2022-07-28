@@ -1,5 +1,5 @@
 /* DEV */
-@import url(../style/style.css);
+/*@import url(../style/style.css);
 /* DEV */
 
 /* normalize.css */
@@ -7,7 +7,7 @@
 /* fonts */
 @import url(../fonts/fonts.css);
 /* page */
-@import url(../blocks/page/page.css);
+/*@import url(../blocks/page/page.css);
 /* header */
 @import url(../blocks/header/header.css);
 @import url(../blocks/header/__logo/header__logo.css);
