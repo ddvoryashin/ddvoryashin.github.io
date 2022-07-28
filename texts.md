@@ -88,16 +88,7 @@ http://vodlozero.ru/
 Путешествия
 © 2020. Впишите своё имя
 
-<!-- TODO: lang-link убрать направо -->
-  <!-- TODO: активный язык подчеркивать -->
-  <!-- TODO: широкий header -->
-  <header class="header">
-    <div class="header__logo"></div>
-    <div>
-      <a class="header__lang-link header__lang-link_lang_ru" href="#">Ru</a>
-      <a class="header__lang-link" href="#">En</a>
-    </div>
-  </header>
+
   <main class="main">
     <section class="lead">
       <h1 class="lead__title">Путешествия по России</h1>
