@@ -90,20 +90,6 @@ http://vodlozero.ru/
 
 
   <main class="main">
-    <section class="photo-grid">
-      <img src="./images/photo-grid-train.jpg" alt="Пропала картинка с поездом:(" class="photo-grid__item"></img>
-      <img src="./images/photo-grid-atharva-tulsi.jpg" alt="Пропала картинка горы Ахтарва Тульси:(" class="photo-grid__item"></img>
-      <img src="./images/photo-grid-tuman.jpg" alt="Пропала картинка с туманом:(" class="photo-grid__item"></img>
-      <img src="./images/photo-grid-sochi.jpg" alt="Пропала картинка лесов Сочи:(" class="photo-grid__item"></img>
-      <img src="./images/photo-grid-arisa.jpg" alt="Пропала картинка с Байкалом:(" class="photo-grid__item"></img>
-      <img src="./images/photo-grid-baikal.jpg" alt="Пропала картинка с Байкалом:(" class="photo-grid__item"></img>
-      <img src="./images/photo-grid-elbrus.jpg" alt="Пропала картинка Эльбруса:(" class="photo-grid__item"></img>
-      <img src="./images/photo-grid-kondratiev.jpg" alt="Пропала картинка Кондратьева:(" class="photo-grid__item"></img>
-      <img src="./images/photo-grid-kamchatka-1.jpg" alt="Пропала картинки Камчатки:(" class="photo-grid__item"></img>
-      <img src="./images/photo-grid-kamchatka-2.jpg" alt="Пропала картинка Камчатки:(" class="photo-grid__item"></img>
-      <img src="./images/photo-grid-baikal-2.jpg" alt="Пропала картинка с Байкалом:(" class="photo-grid__item"></img>
-      <img src="./images/photo-grid-ergaki.jpg" alt="Пропала картинка парка Ергаки:(" class="photo-grid__item"></img>
-    </section>
     <!-- TODO: почему-то появляются гэпы по бокам, когда в place__title 1 строка -->
     <!-- TODO: проверить везде height/min-height -->
     <section class="places">
