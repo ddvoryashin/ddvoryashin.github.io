@@ -12,6 +12,7 @@
 <body class="page">
   <!-- TODO: lang-link убрать направо -->
   <!-- TODO: активный язык подчеркивать -->
+  <!-- TODO: широкий header -->
   <header class="header">
     <div class="header__logo"></div>
     <div>
@@ -37,14 +38,28 @@
         <li>Аэропортов <p class="intro__list-value">241</p></li>
       </ul>
     </section>
-    <section class="photo-grid"></section>
-    <!-- TODO: высота place__title в зависимости от кол-ва строк -->
+    <section class="photo-grid">
+      <img src="./images/photo-grid-train.jpg" alt="Пропала картинка с поездом:(" class="photo-grid__item"></img>
+      <img src="./images/photo-grid-atharva-tulsi.jpg" alt="Пропала картинка горы Ахтарва Тульси:(" class="photo-grid__item"></img>
+      <img src="./images/photo-grid-tuman.jpg" alt="Пропала картинка с туманом:(" class="photo-grid__item"></img>
+      <img src="./images/photo-grid-sochi.jpg" alt="Пропала картинка лесов Сочи:(" class="photo-grid__item"></img>
+      <img src="./images/photo-grid-arisa.jpg" alt="Пропала картинка с Байкалом:(" class="photo-grid__item"></img>
+      <img src="./images/photo-grid-baikal.jpg" alt="Пропала картинка с Байкалом:(" class="photo-grid__item"></img>
+      <img src="./images/photo-grid-elbrus.jpg" alt="Пропала картинка Эльбруса:(" class="photo-grid__item"></img>
+      <img src="./images/photo-grid-kondratiev.jpg" alt="Пропала картинка Кондратьева:(" class="photo-grid__item"></img>
+      <img src="./images/photo-grid-kamchatka-1.jpg" alt="Пропала картинки Камчатки:(" class="photo-grid__item"></img>
+      <img src="./images/photo-grid-kamchatka-2.jpg" alt="Пропала картинка Камчатки:(" class="photo-grid__item"></img>
+      <img src="./images/photo-grid-baikal-2.jpg" alt="Пропала картинка с Байкалом:(" class="photo-grid__item"></img>
+      <img src="./images/photo-grid-ergaki.jpg" alt="Пропала картинка парка Ергаки:(" class="photo-grid__item"></img>
+    </section>
+    <!-- TODO: почему-то появляются гэпы по бокам, когда в place__title 1 строка -->
+    <!-- TODO: проверить везде height/min-height -->
     <section class="places">
       <div class="place"> <!-- 1 -->
         <h2 class="place__title">Куршская коса</h2>
         <div class="place__website">
-          <a href="http://www.park-kosa.ru" class="place__link" target="_blank">park-kosa.ru</a>
           <p class="place__url-heading">URL</p>
+          <a href="http://www.park-kosa.ru" class="place__link" target="_blank">park-kosa.ru</a>
         </div>
         <img src="./images/place-kosa.jpg" alt="Пропала картинка Куршской косы:(" class="place__image">
         <div>
@@ -55,8 +70,8 @@
       <div class="place"> <!-- 2 -->
         <h2 class="place__title">Кольский</h2>
         <div class="place__website">
-          <a href="https://www.nationalgeographic.com" class="place__link" target="_blank">National Geographic</a>
           <p class="place__url-heading">URL</p>
+          <a href="https://www.nationalgeographic.com" class="place__link" target="_blank">National Geographic</a>
         </div>
         <img src="./images/place-kolsky.jpg" alt="Пропала картинка Кольского:(" class="place__image">
         <div>
@@ -67,8 +82,8 @@
       <div class="place"> <!-- 3 -->
         <h2 class="place__title">Алтай</h2>
         <div class="place__website">
-          <a href="#" class="place__link" target="_blank">Facebook</a>
           <p class="place__url-heading">URL</p>
+          <a href="#" class="place__link" target="_blank">Facebook</a>
         </div>
         <img src="./images/place-altai.jpg" alt="Пропала картинка Алтая:(" class="place__image">
         <div>
@@ -79,8 +94,8 @@
       <div class="place"> <!-- 4 -->
         <h2 class="place__title">Зимний Байкал</h2>
         <div class="place__website">
-          <a href="https://vk.com/baikalmile" class="place__link" target="_blank">https://vk.com/baikalmile</a>
           <p class="place__url-heading">URL</p>
+          <a href="https://vk.com/baikalmile" class="place__link" target="_blank">https://vk.com/baikalmile</a>
         </div>
         <img src="./images/place-winter-baikal.jpg" alt="Пропала картинка Зимнего Байкала:(" class="place__image">
         <div>
@@ -91,8 +106,8 @@
       <div class="place"> <!-- 5 -->
         <h2 class="place__title">Карелия</h2>
         <div class="place__website">
-          <a href="http://vodlozero.ru/" class="place__link" target="_blank">http://vodlozero.ru/</a>
           <p class="place__url-heading">URL</p>
+          <a href="http://vodlozero.ru/" class="place__link" target="_blank">http://vodlozero.ru/</a>
         </div>
         <img src="./images/place-karelia.jpg" alt="Пропала картинка Карелии:(" class="place__image">
         <div>

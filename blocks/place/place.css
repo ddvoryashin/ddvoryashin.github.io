@@ -1,8 +1,8 @@
 .place {
   margin-top: 80px;
   display: grid;
-  grid-template: 152px 460px / 460px 484px;
-  gap: 48px 40px;
+  grid-template: min-content 460px / 47% 49%;
+  gap: 48px 4%;
 }
 
 .place:first-of-type {
